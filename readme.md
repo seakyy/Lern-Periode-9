@@ -39,16 +39,15 @@
   - [ ] Rechtschreibeprüfung
 
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, einen ersten Entwurf Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
+✍️ Heute habe ich...
+Heute habe ich mir Gedanken gemacht bezüglich zu der Startseite. Ich habe bereits die Grundlage erstellt, mit einem passenden Hintergrund. Ich werde die Website in den kommenden Tagen noch anpassen, Informationen hinzufügen und das allgemeine Erscheinungsbild der Website verbessern. Dazu habe ich noch Kern-Eigenschaften über mich notiert, welche mich gut beschreiben. Mit einer Suchmaschine habe ich mich selbst gegoogelt, aber ich finde nichts, ausser das ich 2017 in einem Fussballverein gespielt habe. Desshalb hatte ich auch nichts zum "ausputzen".
 
 ## 28.2
 
-- [ ] CV zusammenstellen
-- [ ] LinkedIn-Profil erstellen / ausputzen
+- [ ] LinkedIn-Profil ausbessern evtl. sich mit Personen vernetzen
 - [ ] GitHub-Profil professionalisieren (`readme.md`)
-- [ ] Start-Seite: Was ist das dringendste AP?
+- [ ] Start-Seite: Informationen einfügen.
+- [ ] Start-Seite: Animationen einbauen, bisschen "Fleisch am Knochen"
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
@@ -56,7 +55,6 @@
 
 ## 7.3
 
-- [ ] 
 - [ ] CV-Seite erstellen
 - [ ] Start-Seite 1
 - [ ] Start-Seite 2
