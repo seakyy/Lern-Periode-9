@@ -5,8 +5,26 @@
 ## Grob-Planung
 
 1. Welche Projekte haben Sie bereits auf Ihrem github, welche Sie verlinken könnten?
-2. Wie sieht Ihr *skill portfolio* aus? Was können Sie bereits, und was wäre etwas, das Sie lernen möchten?
-3. Was wäre ein gutes Projekt für die zweite Hälfte dieser Lern-Periode?
+   Lernperiode 7, Notizen-Manager.
+   Lernperiode 6, Pacman in WinForms
+   Lernperiode 5, Travel-Website
+   (Pentesting-Modul)
+   
+3. Wie sieht Ihr *skill portfolio* aus? Was können Sie bereits, und was wäre etwas, das Sie lernen möchten?
+   Ich habe schon vieles gelernt, mein Wissen hat ein grosses Spektrum, jedoch nur bei wenigen Themen vertieft.
+   Skills:
+   - SQL
+   - C# (Vertieft)
+   - HTML und CSS (Vertieft)
+   - Javascript
+   - Powershell
+   - Application Testing
+   - Docker
+   - Python
+   - Git
+     
+5. Was wäre ein gutes Projekt für die zweite Hälfte dieser Lern-Periode?
+   Ein Inventarverwaltungssystem für Unternehmen mit viel Geräte und Ausrüstung, denn diese App wird einen echten Nutzen haben, da mein Vater sie brauchen könnte.
 
 ## 21.2
 
