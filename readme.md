@@ -50,13 +50,14 @@ Heute habe ich mir Gedanken gemacht bezüglich zu der Startseite. Ich habe berei
 - [ ] Start-Seite: Animationen einbauen, bisschen "Fleisch am Knochen"
 
 ✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich auf Github eine Readme.md File hochgeladen, in der ich ein bisschen über mich und mein Wissen erzähle. Dazu habe ich noch mein LinkedIn Profil angepasst. Ich habe heute ein Paar Informationen in die Website eingebaut. Leider bin ich aber heute nicht dazu gekommen, Animationen einzubauen, das ist dann eine Aufgabe für nächste Woche.
 
 ☝️ Vergessen Sie nicht, die angepasste Version Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
 
 ## 7.3
 
 - [ ] CV-Seite erstellen
-- [ ] Start-Seite 1
+- [ ] Start-Seite 1 (Animationen einbauen)
 - [ ] Start-Seite 2
 - [ ] Rückmeldung geben.
 
