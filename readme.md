@@ -62,16 +62,16 @@ Heute habe ich auf Github eine Readme.md File hochgeladen, in der ich ein bissch
 - [ ] Rückmeldung geben.
 
 ✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich meine Website in der "No-Devices" Zeit nochmals umgestalten. Ich wollte ein besser Design haben, bzw ein ansprechbares. Wenn ich meine Website am Ende des Tages, mit der alten vergleiche, sehe ich grosse Fortschritte. Ich hatte vor, eine CV-Seite zu erstellen, dies habe ich auch gemacht, jedoch habe ich sie nicht hochgeladen, da ich denke dass sie noch nicht bereit ist. Animationen habe ich auch eingebaut, mein persönliches Highlight ist der Theme-Switch (Dark-Theme / Light-Theme). Somit wird es angenehm die Website jederzeit zu besuchen. Natürlich ahbe ich auch Hover Effekte eingebaut.
 
 ☝️ Vergessen Sie nicht, die fertige Version Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
 
 ## 14.3
 
-- [ ] 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Mindmap / Strukturierter Plan zum neuen Projekt machen
+- [ ] Backend-Code von vorherigen Projekte benutzen und anpassen
+- [ ] SQL Datenbank-Verbindung herstellen
+- [ ] Evtl. Website nochmals überarbeiten bzw. Updaten
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
