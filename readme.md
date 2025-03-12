@@ -68,6 +68,23 @@ Heute habe ich meine Website in der "No-Devices" Zeit nochmals umgestalten. Ich 
 
 ## 14.3
 
+(Ergänzung:
+Da ich diese Porjekt selbst hosten will musste ich mir eine neue "Infrastruktur" zulegen. Diese kommt erst Freitag, spätestens bis am Mittag an. Da es sich hier um einen Raspberry Pi handelt, und ich keinerlei Erfahrung habe, möchte ich mich zuerst mit dem Gerät vertraut machen.
+Ich sehe das ganze als eine sinnvolle Investition, da ich später verschiedene Sachen Hosten kann oder mir einen Home Assistent einrichte. Ich probiere meinen Fortschritt auf Github festzuhalten.
+Da es sich, wie oben erwähnt, um etwas handelt bei dem ich keinerlei Erfahrung habe, möchte ich die nächsten AP überarbeiten.
+
+
+- [ ] Mindmap / Strukturierter Plan zum neuen Projekt machen inkl. Raspberry Pi
+- [ ] Infrastruktur Zuhause einrichten inkl. Kühlgehäuse usw.
+- [ ] Datenträger "reinigen" und Raspberry OS installieren
+- [ ] Funktionierendes OS auf dem Raspberry Pi haben
+
+Die "alten" AP werden natürlich auch gemacht, jedoch mit Verzögerung und sehr wahrscheinlich auch nicht während der Lernatelier-Zeit, da es von der Zeit her zu knapp wird.
+Zusammengefasst: Ich freue mich sher auf mein neues Projekt, welches wenn es fertig ist, dann auch wirklich gebraucht wird und nicht nur als "Projekt" gilt. 
+)
+
+
+
 - [ ] Mindmap / Strukturierter Plan zum neuen Projekt machen
 - [ ] Backend-Code von vorherigen Projekte benutzen und anpassen
 - [ ] SQL Datenbank-Verbindung herstellen
