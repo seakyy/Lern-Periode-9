@@ -1,0 +1,216 @@
+{
+    "info": {
+        "name": "Warehouse API Tests",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Login Admin",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": "{{base_url}}/api/auth/login",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"username\": \"admin\", \"password\": \"password\"}"
+                }
+            },
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "var jsonData = pm.response.json();",
+                            "pm.environment.set('admin_token', jsonData.token);",
+                            "pm.test('Login erfolgreich', function () {",
+                            "    pm.response.to.have.status(200);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Login WarehouseManager",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": "{{base_url}}/api/auth/login",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"username\": \"lagerist\", \"password\": \"password\"}"
+                }
+            },
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "var jsonData = pm.response.json();",
+                            "pm.environment.set('warehouse_token', jsonData.token);",
+                            "pm.test('Login erfolgreich', function () {",
+                            "    pm.response.to.have.status(200);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Login User",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": "{{base_url}}/api/auth/login",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"username\": \"user1\", \"password\": \"password\"}"
+                }
+            },
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "var jsonData = pm.response.json();",
+                            "pm.environment.set('user_token', jsonData.token);",
+                            "pm.test('Login erfolgreich', function () {",
+                            "    pm.response.to.have.status(200);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "GET Items (User)",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{user_token}}"
+                    }
+                ],
+                "url": "{{base_url}}/api/items"
+            },
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "pm.test('GET Items erfolgreich', function () {",
+                            "    pm.response.to.have.status(200);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "POST Item (WarehouseManager)",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{warehouse_token}}"
+                    }
+                ],
+                "url": "{{base_url}}/api/items",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"sku\": \"TOOL-005\", \"name\": \"Bohrmaschine\", \"description\": \"Leistungsstarke Bohrmaschine\", \"price\": 99.99, \"isAvailable\": true, \"categoryId\": 2}"
+                }
+            },
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "pm.test('Item erfolgreich erstellt', function () {",
+                            "    pm.response.to.have.status(201);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "DELETE Item (User - Forbidden)",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{user_token}}"
+                    }
+                ],
+                "url": "{{base_url}}/api/items/1"
+            },
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "pm.test('DELETE nicht erlaubt für User', function () {",
+                            "    pm.response.to.have.status(403);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "DELETE Item (Admin)",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{admin_token}}"
+                    }
+                ],
+                "url": "{{base_url}}/api/items/1"
+            },
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [
+                            "pm.test('DELETE erfolgreich für Admin', function () {",
+                            "    pm.response.to.have.status(204);",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ]
+        }
+    ]
+}
