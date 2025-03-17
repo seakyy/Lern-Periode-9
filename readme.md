@@ -2,6 +2,10 @@
 
 21.2 bis 4.4
 
+## *Hinweis
+Da ich in dieser LP zum ersten Mal ein Raspberry Pi aufsetze, möchte ich gerne meinen Fortschritt festhalten und dokumentieren. Ich werde ein eigenes Repo dafür erstellen, da es sonst der Rahemn dieses Repo's sprengen würde.
+--> Repository: Raspberry Pi 5
+--
 ## Grob-Planung
 
 1. Welche Projekte haben Sie bereits auf Ihrem github, welche Sie verlinken könnten?
