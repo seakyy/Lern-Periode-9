@@ -99,3 +99,14 @@ Last Minute Plan Änderung: Das Paket ist nut teilweise angekommen (resp. nur da
 ☝️ Vergessen Sie nicht, einen ersten Code Ihres Projektes in dieser Ablage hochzuladen.
 
 Ausserhalb des LA: Ich habe das BackEnd nochmals getestet und es ist voll funktionsfähig. Ich habe noch kleine Änderungen am Code vorgenommen unter anderem Sachen wie die einzelne Dateien umbennen.
+
+
+
+## 21.3
+- [ ] Raspberry Pi Repo erstellt
+- [ ] Ausführliche Anleitung zum Aufsetzen bereitgestellt
+- [ ] Ablauf mit Fotos dokumentiert
+- [ ] Website aufsetzen -> koteski.ch
+
+✍️ Heute habe ich... (50-100 Wörter)
+Seit letzter Woche habe ich mich intensiv mit meinem Raspberry Pi 5 beschäftigt. Zunächst habe ich recherchiert, welche Komponenten und Tools ich für meine eigene Website benötige. Im Raspberry Pi Repo sind auch die Accessoires zu finden, die ich dazu gekauft habe. Nachdem der Raspberry Pi eingerichtet war, habe ich die ersten Betriebssystem-Updates durchgeführt und Apache installiert. Die größte Herausforderung war die Konfiguration von Cloudflare, da mein Internetanbieter keine statische IP-Adresse bietet, sondern eine dynamische. Das führte zu vielen Schwierigkeiten bei der DNS-Konfiguration.
