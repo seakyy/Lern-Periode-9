@@ -110,3 +110,18 @@ Ausserhalb des LA: Ich habe das BackEnd nochmals getestet und es ist voll funkti
 
 ✍️ Heute habe ich... (50-100 Wörter)
 Seit letzter Woche habe ich mich intensiv mit meinem Raspberry Pi 5 beschäftigt. Zunächst habe ich recherchiert, welche Komponenten und Tools ich für meine eigene Website benötige. Im Raspberry Pi Repo sind auch die Accessoires zu finden, die ich dazu gekauft habe. Nachdem der Raspberry Pi eingerichtet war, habe ich die ersten Betriebssystem-Updates durchgeführt und Apache installiert. Die größte Herausforderung war die Konfiguration von Cloudflare, da mein Internetanbieter keine statische IP-Adresse bietet, sondern eine dynamische. Das führte zu vielen Schwierigkeiten bei der DNS-Konfiguration.
+
+
+## 28.3
+- [ ] [Rapsberry Pi Repo erstellt](https://github.com/seakyy/Raspberry-Pi), saubere Dokumentation
+- [ ] Discord balance bot: Readme.md überarbeitet und Pull-request anschauen --> Code review
+- [ ] NAS aufsetzen (raspberrypi), nextcloud installieren
+
+✍️ Heute habe ich... (50-100 Wörter)
+Seit letzter Woche habe ich einen riesen Sprung gemacht und habe fast täglich an dem Repo bzw. Projekt gearbeitet. Sehen Sie sich alle Fortschritte in meinem [Repo](https://github.com/seakyy/Raspberry-Pi) an. Ich habe für mich, noch eine extra Dokumentation erstellt, bei der ich die Aufsetzung verschiedenster Dienste aufgeschrieben habe. Diese wurde als Jupyter Notebook geschrieben und auch so gespeichert. Ich werde diese NICHT veröffentlichen, da dort die Privatekeys (zum Beispiel von WireGuard) und Passwörter von verschiedenster Dienste gespeichert sind. Da meine Kollegen und ich zusammen weiter an unserem [Discord Bot](https://github.com/IM23d/discord-balance-bot) weitergearbeitet haben, musste ich noch das Readme.md aktualisieren. Zuletzt habe ich noch MariaDB, MySQL und PHP installiert, um mein Raspberry Pi für ein NAS vorzubereiten. Nextcloud wurde schon installiert, den Rest (die Konfiguration muss ich Zuhause machen, da ich in einem Lokalen netzwerk sein muss, um die Konfiguration vollständig abschliessen zu können.
+
+
+## 4.4
+- [ ] [Koteski.ch](Koteski.ch) überarbeiten -- Lagerverwaltung einfügen
+- [ ] Discord balance Bot hosten auf RP (Raspberry Pi) und Prozess dokumentieren
+- [ ] --Übriges (noch nicht sicher was genau machen) 
