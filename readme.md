@@ -122,6 +122,6 @@ Seit letzter Woche habe ich einen riesen Sprung gemacht und habe fast täglich a
 
 
 ## 4.4
-- [ ] [Koteski.ch](Koteski.ch) überarbeiten -- Lagerverwaltung einfügen
+- [ ] Koteski.ch überarbeiten -- Lagerverwaltung einfügen
 - [ ] Discord balance Bot hosten auf RP (Raspberry Pi) und Prozess dokumentieren
 - [ ] --Übriges (noch nicht sicher was genau machen) 
